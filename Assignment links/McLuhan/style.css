@@ -1,0 +1,62 @@
+nav {
+    float: right;
+	padding-right: 20px;
+  }
+  
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+nav a {
+    color: #2b4268;
+    text-decoration: none;
+    font-size: 15px;
+  }
+nav a:hover {
+    color: #392562;
+  }
+body{
+    color: #392562;
+    background-color: #7997c6;
+  }
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+main{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+#slider {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #slider img {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  #prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 0;
+  }
+  
+  #nextBtn {
+    right: 0;
+  }
+  

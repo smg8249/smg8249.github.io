@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right, #ffd872, #fc6238, #ffd872);
+    animation: gradient-animation 5s ease infinite;
+  }
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+#redirect-btn {
+    display: flexbox;
+    background-color: #F2D4CC;
+    font-size: 36px;
+    color: #6C88C4;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#redirect-btn:hover {
+    background-color: #E77577;
+  }
+  
+.bounce {
+    animation: bounce 0.5s infinite alternate;
+  }
+  
+@keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
