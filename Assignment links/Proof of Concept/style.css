@@ -1,0 +1,35 @@
+body {
+    background-color: #6C88C4;
+  }
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+#Primavera {
+    display: flexbox;
+    font-size: 36px;
+    color: #6C88C4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+.bounce:hover {
+    animation: bounce 0.5s infinite alternate;
+  }
+  
+@keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
